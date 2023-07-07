@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --cor-primaria: hsl(300, 43%, 22%);
+    --cor-secundaria: hsl(333, 80%, 67%);
+    --cor-neutra1: hsl(300, 5%, 48%);
+    --cor-neutra2: hsl(300, 14%, 89%);
+    --cor-neutra3: hsl(0, 0%, 100%);
+    --fonte-principal: 'League Spartan', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+*{
+    background-color: var(--cor-neutra3);
+    padding: 2px;
+    margin: 0px;
+}
+
+.conteudo__superior{
+    display:flex;
+    flex-direction: row;
+    height: 45vh;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+
+.conteudo__superior__esquerda{
+    display:flex;
+    flex-direction: column;
+    width: 45em;
+    padding-right: 7rem;
+}
+
+.c__s__e__titulo{
+    font-size: 4.5rem;
+    font-family:var(--fonte-principal);
+    color: var(--cor-primaria);
+    font-weight: 700;    
+}
+
+.c__s__e__texto{
+    font-size: 1.5rem;
+    font-family:var(--fonte-principal);
+    color: var(--cor-neutra1);
+    font-weight: 400;   
+}
+
+.conteudo__superior__direita{
+    display: flex;
+    width: 45em;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+.conteudo__superior__direita__divisao{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-neutra2);
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.segunda_parte{
+    margin-left: 5em;
+}
+
+.terceira_parte{
+    margin-left: 10em
+}
+
+.imagem_estrelas{
+    background-color: var(--cor-neutra2);
+}
+
+.texto_inside{
+    background-color: var(--cor-neutra2);
+}
+
+.conteudo__inferior{
+    display: flex;
+    height: 45vh;
+    gap: 2.5rem;
+    padding: 2.5rem;
+}
+
+.conteudo__inferior__bloco{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem ;
+    height: 60%;
+    background-color: var(--cor-primaria);
+    padding: 2.5rem;
+}
+
+.conteudo__bloco__superior{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-primaria);
+}
+
+.conteudo__bloco__superior__texto{
+    background-color: var(--cor-primaria);
+    color: var(--cor-neutra3);
+    padding: 0;
+    margin: 0;
+    border: solid var(--cor-primaria) 1rem;
+}
+
+.bpn{
+    background-color: var(--cor-primaria);
+}
+
+.img__inf{
+    border-radius: 50%;
+    height: 4em;
+}
+
+.part_2{
+    margin-top: 2.5rem;
+}
+
+.part_3{
+    margin-top: 5rem;
+}
+
+.footer{
+    height: 2rem;
+    background-color: var(--cor-primaria);
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.footer_2{
+    background-color: var(--cor-primaria);
+}
